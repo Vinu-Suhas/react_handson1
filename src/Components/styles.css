@@ -1,0 +1,28 @@
+.heading{
+    text-align: center;
+}
+.container{
+    height: 100vh;
+    background: rgb(255,0,217);
+    background: linear-gradient(189deg, rgba(255,0,217,1) 0%, rgba(121,9,121,1) 0%, rgba(90,62,156,1) 0%, rgba(137,0,237,1) 31%, rgba(255,0,238,1) 100%); 
+}
+.box{
+    width:fit-content;
+    height: 100px;
+    padding: 20px;
+    background-color: lightblue;
+    border-radius: 40px;
+    border: 5px solid black;
+}
+.box_contianer{
+    display: flex;
+    justify-content: space-around;
+}
+.heading{
+    text-shadow: 2px 2px 5px rgba(255,0,238,1);
+}
+.secondary_box_container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
